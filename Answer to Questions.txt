@@ -1,0 +1,24 @@
+Git Hub URL
+
+https://github.com/amy6586/Automation-OUTFITTERY
+
+Question 1:
+
+Answer
+
+I choose the Customer Login Page because is something will definetly will be needed in a regression suite, is important to test it using an existing User ID or Password, I would choose other login options but since this is a test there is not much time to automate the entire login options such, use Social Networks or Forgot Password. 
+ 
+Question 2:
+
+Answer
+I choose this approach because the UI is one of the easiest and fastest parts to automate, I would choose to automate the Web Services using Soap UI but I don't have the domain knowledge of the application as well as the Calls available to create the testing suite.
+
+Question 3:
+
+Answer   
+I will use Selenium to Automate the UI is compatible with several Languages as well is easy to use  for anyone, but since this page is in Angular JS I had to use a wrapper for the Selenium webdriver named Protractor. Is my first time using it this way.
+
+Question 4:
+
+Answer   
+I would create a full set of testing about creating an user from scratch, choose different types of combinations for the profile creation and will create separate tests for different kind of login types.
