@@ -1,3 +1,9 @@
+describe ('To Test OUTFITTERY Login Link Home Page', function() {
+	it ('to test login link goes to to the correct page' function(){
+		browser.get('https://www.outfittery.com');
+		element(by.show('user.signedIn')).click();
+	});	
+});
 describe('To Test OUTFITTERY Login window', function() {
 it('should be able to login', function() {
 browser.driver
@@ -7,8 +13,6 @@ browser.driver.findElement(by.name('j_password')).sendKeys("testing123testing")�
 browser.driver.findElement(by.id('submit')).click();
 });
 });
-
-
 describe('To Test OUTFITTERY Login window error WRONG PASSWORD', function() {
 it('should be able to login', function() {
 browser.driver
@@ -23,8 +27,6 @@ console.log(text);
 });
 });
 });
-
-
 describe('To Test OUTFITTERY Login window error WRONG uSER NAME', function() {
 it('should be able to login', function() {
 browser.driver
