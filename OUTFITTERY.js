@@ -1,7 +1,7 @@
 describe ('To Test OUTFITTERY Login Link Home Page', function() {
         it ('to test login link goes to to the correct page' function(){
 	browser.get('https://www.outfittery.com');
-        element(by.show('user.signedIn')).click();
+        element(by.PartialLinkText('/login/auth')).click();
 	});	
 });
 describe('o Test OUTFITTERY Login Page Postive', function() {
